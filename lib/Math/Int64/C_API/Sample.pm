@@ -26,11 +26,11 @@ Math::Int64::C_API::Sample - C API Usage sample for Math::Int64
 
 =head1 DESCRIPTION
 
-Look at the source
+This is a sample module, look at its source!
 
 =head2 EXPORT
 
-The sample subrutines available from this module are:
+The sample subroutines available from this module are:
 
   some_int64()
   uint64_sqr(u64)

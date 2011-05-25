@@ -1,0 +1,6 @@
+Revision history for Perl extension Math::Int64::C_API::Sample.
+
+0.01  Wed May 25 16:41:20 2011
+	- original version; created by h2xs 1.23 with options
+		-An Math::Int64::C_API::Sample
+

@@ -1,15 +1,20 @@
-# Before `make install' is performed this script should be runnable with
-# `make test'. After `make install' it should work as `perl Math-Int64-C_API-Sample.t'
+#!/usr/bin/perl
 
-#########################
+use strict;
+use warnings;
 
-# change 'tests => 1' to 'tests => last_test_to_print';
+use Test::More tests => 4;
 
-use Test::More tests => 1;
-BEGIN { use_ok('Math::Int64::C_API::Sample') };
+use Math::Int64::C_API::Sample;
 
-#########################
+my $i = some_int64();
 
-# Insert your test code below, the Test::More module is use()ed here so read
-# its man page ( perldoc Test::More ) for help writing this test script.
+ok($i == -42);
+$i <<= 33;
+is("$i", "-360777252864");
 
+my $j = int64_addmul(-$i, (2**33), 128);
+is ("$j", "1460288880640");
+
+my $k = uint64_sqr($j+1);
+is ("$k", "2920577761281");

@@ -1,13 +1,13 @@
 package Math::Int64::C_API::Sample;
 
-use 5.010001;
+our $VERSION = '0.02';
+
 use strict;
 use warnings;
 
 use Exporter qw(import);
-our @EXPORT_OK = qw(some_int64 uint64_sqr int64_addmul);
+our @EXPORT = qw(some_int64 uint64_sqr int64_addmul);
 
-our $VERSION = '0.01';
 
 require XSLoader;
 XSLoader::load('Math::Int64::C_API::Sample', $VERSION);

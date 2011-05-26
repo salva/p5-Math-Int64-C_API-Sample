@@ -18,6 +18,8 @@ typedef unsigned __int64 uint64_t;
 
 MODULE = Math::Int64::C_API::Sample		PACKAGE = Math::Int64::C_API::Sample		
 
+PROTOTYPES: DISABLE
+
 BOOT:
   MATH_INT64_BOOT;
 

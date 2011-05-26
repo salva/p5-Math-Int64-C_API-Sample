@@ -6,3 +6,6 @@ README
 Sample.xs
 t/Math-Int64-C_API-Sample.t
 lib/Math/Int64/C_API/Sample.pm
+perl_math_int64.c
+perl_math_int64.h
+typemap

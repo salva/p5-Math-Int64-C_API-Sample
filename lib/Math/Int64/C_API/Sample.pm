@@ -1,6 +1,6 @@
 package Math::Int64::C_API::Sample;
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 use strict;
 use warnings;

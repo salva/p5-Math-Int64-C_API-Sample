@@ -3,7 +3,7 @@ use ExtUtils::MakeMaker;
 
 WriteMakefile( NAME         => 'Math::Int64::C_API::Sample',
                VERSION_FROM => 'lib/Math/Int64/C_API/Sample.pm',
-               PREREQ_PM    => { 'Math::Int64' => '0.16' },
+               PREREQ_PM    => { 'Math::Int64' => '0.17' },
                AUTHOR       => 'Eto Demerzel <eto.demerzel@usrobots.com>',
                LIBS         => [''], # e.g., '-lm'
                DEFINE       => '', # e.g., '-DHAVE_SOMETHING'

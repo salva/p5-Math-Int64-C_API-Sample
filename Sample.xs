@@ -4,6 +4,11 @@
 
 #include "ppport.h"
 
+/* define int64_t and uint64_t when using MinGW compiler */
+#ifdef __MINGW32__
+#include <stdint.h>
+#endif
+
 /* define int64_t and uint64_t when using MS compiler */
 #ifdef _MSC_VER
 #include <stdlib.h>

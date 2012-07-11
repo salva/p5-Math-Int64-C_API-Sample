@@ -3,7 +3,7 @@
 use strict;
 use warnings;
 
-use Test::More tests => 4;
+use Test::More tests => 5;
 
 use Math::Int64::C_API::Sample;
 
@@ -18,3 +18,6 @@ is ("$j", "1460288880640");
 
 my $k = uint64_sqr($j+1);
 is ("$k", "2920577761281");
+
+is ("". uint64_rand(), "17761629189777429372");
+

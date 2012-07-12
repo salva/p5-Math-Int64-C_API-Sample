@@ -29,7 +29,7 @@ MODULE = Math::Int64::C_API::Sample		PACKAGE = Math::Int64::C_API::Sample
 PROTOTYPES: DISABLE
 
 BOOT:
-  MATH_INT64_BOOT;
+  PERL_MATH_INT64_LOAD_OR_CROAK;
 
 int64_t
 some_int64()

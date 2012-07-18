@@ -1,7 +1,10 @@
 Revision history for Perl extension Math::Int64::C_API::Sample.
 
+0.06  Jul 18, 2012
+        - updated to use latest Math::Int64 C API
+
 0.05  Jul 17, 2012
-        - update to use latest Math::Int64 C API
+        - updated to use latest Math::Int64 C API
 
 0.04  Jun 8, 2011
         - add support for MinGW32 compiler on Windows

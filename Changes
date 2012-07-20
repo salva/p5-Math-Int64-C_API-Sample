@@ -1,5 +1,9 @@
 Revision history for Perl extension Math::Int64::C_API::Sample.
 
+0.08  Jul 20, 2012
+        - require Math::Int64 0.27_04
+        - update C API support files to latest version
+
 0.07  Jul 19, 2012
         - require Math::Int64 0.27_03
         - require C API interface version 2

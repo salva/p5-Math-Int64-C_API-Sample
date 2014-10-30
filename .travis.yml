@@ -6,6 +6,4 @@ perl:
   - "5.14"
   - "5.12"
   - "5.10"
-before_install:
-  - "cpanm Module::CAPIMaker"
-
+before_script: travis/setup.pl

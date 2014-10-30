@@ -62,3 +62,9 @@ CODE:
     RETVAL = randU64();
 OUTPUT:
     RETVAL
+
+void
+sv_seti64(SV *sv, int64_t i64)
+
+void
+sv_setu64(SV *sv, uint64_t u64)

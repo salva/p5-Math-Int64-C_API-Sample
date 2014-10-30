@@ -3,7 +3,7 @@
 use strict;
 use warnings;
 
-use Test::More tests => 5;
+use Test::More;
 
 use Math::Int64::C_API::Sample;
 
@@ -21,3 +21,14 @@ is ("$k", "2920577761281");
 
 is ("". uint64_rand(), "17761629189777429372");
 
+my ($i64, $u64);
+sv_seti64($i64, $k);
+is ($i64, "2920577761281");
+
+sv_seti64($i64, -$k);
+is ($i64, "-2920577761281");
+
+sv_setu64($u64, $k);
+is ($u64, "2920577761281");
+
+Test::More::done_testing;

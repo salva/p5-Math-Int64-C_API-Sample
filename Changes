@@ -1,5 +1,8 @@
 Revision history for Perl extension Math::Int64::C_API::Sample.
 
+0.09  Oct 30, 2014
+        - add tests for sv_seti64 and sv_setu64
+
 0.08  Jul 20, 2012
         - require Math::Int64 0.27_04
         - update C API support files to latest version

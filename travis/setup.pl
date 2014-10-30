@@ -15,6 +15,11 @@ unlink "perl_math_int64.c";
 symlink "dependencies/p5-Math-Int64/c_api_client/perl_math_int64.c", "perl_math_int64.c"
     or die "unable to symlink perl_math_int64.c: $!";
 
+unlink "typemap";
+symlink "dependencies/p5-Math-Int64/c_api_client/typemap", "typemap"
+    or die "unable to symlink typemap: $!";
+
+
 mkdir "dependencies";
 chdir "dependencies" or die "unable to chdir to dependencies: $!";
 
